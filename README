@@ -1,0 +1,3 @@
+This simple force-directed graph shows character co-occurence in Les Misérables. A physical simulation of charged particles and springs places related characters in closer proximity, while unrelated characters are farther apart. Layout algorithm inspired by Tim Dwyer and Thomas Jakobsen. Data based on character coappearence in Victor Hugo's Les Misérables, compiled by Donald Knuth.
+
+Compare this display to a force layout with curved links, a force layout with fisheye distortion and a matrix diagram.
