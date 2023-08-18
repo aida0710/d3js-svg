@@ -1,26 +1,26 @@
 :root {
-  /* 色管理用の変数 */
-  --black-color: #333;
-  --primary-color: #00afa8;
-  --secondary-color: #63d297;
-  --gray-color: #dadce0;
+    /* 色管理用の変数 */
+    --black-color: #333;
+    --primary-color: #00afa8;
+    --secondary-color: #63d297;
+    --gray-color: #dadce0;
 }
 
 .btn-secondary {
-  background-color: #dadce0;
-  color: #333;
+    background-color: #dadce0;
+    color: #333;
 }
 
 .btn-primary {
-  background-color: #00afa8;
+    background-color: #00afa8;
 }
 
 /* ---------- base ---------- */
 body {
-  color: var(--black-color);
-  font-size: 16px;
-  font-family: "Noto Sans JP", sans-serif;
-  line-height: 1.75;
+    color: var(--black-color);
+    font-size: 16px;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.75;
 }
 
 /* ---------- layout ---------- */
@@ -28,17 +28,39 @@ body {
     background-color: var(--primary-color);
   } */
 .l_header {
-  background-color: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 /* ---------- calendar ---------- */
 
 .links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
+    stroke: #999;
+    stroke-opacity: 1.6;
 }
 
 .nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.nodes circle:hover {
+    stroke: black;
+    stroke-width: 5px;
+
+}
+
+body {
+    background-color: tomato;
+}
+
+.graph {
+    width: 100%;
+    text-align: center;
+    background-color: violet;
+}
+
+#field{
+    width:80%;
+    background-color: yellow;
+
 }
